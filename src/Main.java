@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
@@ -11,3 +12,28 @@ void main() {
         IO.println("i = " + i);
     }
 }
+=======
+public class Main{
+  public void main(String[] args){
+
+    String senha = "zor";
+
+    for(int a='a'; a <='z'; a++){
+      for(int b='b'; b<='z'; b++){
+        for(int c='c'; c<='z'; c++){
+
+          String tentativa = "" + (char)a + "" + (char)b + "" + (char)c;
+
+          if( tentativa.equals(senha)){
+            System.out.println("Senha correta: " + tentativa);
+            return;
+
+          }
+        }
+      }
+
+
+    }
+  }
+}
+>>>>>>> 6e9ecd4b7fa6abfc420bf1db7d25f8f0d3ab176f
